@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mynginxclaim
+  name: myclaim
   namespace: aitrain
 spec:
   storageClassName: "oci-bv"
