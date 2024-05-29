@@ -9,7 +9,7 @@ spec:
   volumes:
     - name: oci-csi-ephemeral-aitrain
       persistentVolumeClaim:
-        claimName: mynginxclaim
+        claimName: myclaim
   containers:
   - name: jupiterlab-pytorch
     image: nvcr.io/nvidia/pytorch:22.12-py3
