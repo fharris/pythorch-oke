@@ -31,4 +31,4 @@ spec:
     #resources:
     #  limits:
     #    nvidia.com/gpu: 1
-  nodeName: 10.0.10.129
+  #nodeName: 10.0.10.129 #to use if you want to explicitly schedule the pod in a specific node
